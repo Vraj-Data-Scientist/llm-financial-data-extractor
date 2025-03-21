@@ -3,7 +3,7 @@
 
 Extract financial metrics like revenue and EPS from text using Large Language Models (LLMs).
 
-# Application link: https://llm-financial-data-extractor-vraj-dobariya.streamlit.app/
+Application link: https://llm-financial-data-extractor-vraj-dobariya.streamlit.app/
 ---
 
 ## Overview
