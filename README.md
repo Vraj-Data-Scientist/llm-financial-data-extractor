@@ -8,7 +8,7 @@ Extract financial metrics like revenue and EPS from text using Large Language Mo
 
 ## Overview
 
-`llm-financial-data-extractor` is leverages the power of Large Language Models (LLMs) to extract financial data from unstructured text, such as news articles or financial reports. Built with `langchain-groq` and the `llama-3.3-70b-versatile` model, it extracts key metrics—actual and expected revenue and earnings per share (EPS)—and outputs them in a structured JSON format. The project includes a Streamlit-based web interface for easy interaction, making it accessible to both developers and non-technical users.
+`llm-financial-data-extractor` leverages the power of Large Language Models (LLMs) to extract financial data from unstructured text, such as news articles or financial reports. Built with `langchain-groq` and the `llama-3.3-70b-versatile` model, it extracts key metrics—actual and expected revenue and earnings per share (EPS)—and outputs them in a structured JSON format. The project includes a Streamlit-based web interface for easy interaction, making it accessible to both developers and non-technical users.
 
 ### Features
 - Extracts `revenue_actual`, `revenue_expected`, `eps_actual`, and `eps_expected` with units (e.g., million, billion).
@@ -36,9 +36,9 @@ Extract financial metrics like revenue and EPS from text using Large Language Mo
   ```
 
 ### Dependencies include:
-streamlit
-langchain-groq
-dotenv
+streamlit  
+langchain-groq  
+dotenv  
 
 ## Set Up Environment Variables: Create a .env file in the project root and add your Groq API key:
 
